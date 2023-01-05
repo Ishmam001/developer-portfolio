@@ -152,10 +152,40 @@ section{
     text-align: center;
 }   
 .dbtn{
-    background: #FD6E0A;
-    border-radius: 5px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 64px;
     left: 700px;
     top: 3299px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+}
+/* contact Styles */
+.contact .section-title{
+     text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input[type="text"], input[type="email"] ,textarea{
+    margin-bottom: 24px;
+    border: 1;
+    width: 100%;
+    padding: 18px 30px;
+    
+
+}
+.sbtn{
+    width: 80px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+}
+
+.contact a{
+    text-decoration: none;
 }
